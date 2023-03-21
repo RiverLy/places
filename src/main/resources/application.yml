@@ -1,0 +1,27 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 2000
+  cache:
+    type: redis
+api:
+  kakao:
+    url: https://dapi.kakao.com
+    key: 0c6d23d7679375aee7a4971b5338c5ac
+  naver:
+    url: https://openapi.naver.com
+    client-id: ixQPgbflQVxnDXgCSe0j
+    client-secret: krikFQtvPP
+local-search:
+  priority-weight:
+    kakao: 2
+    naver: 1
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 5000
+        read-timeout: 5000
+
+
