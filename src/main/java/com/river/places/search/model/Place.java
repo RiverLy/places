@@ -14,6 +14,9 @@ import java.util.Objects;
 @Builder
 public class Place implements Comparable<Place>, Serializable {
 
+    @JsonIgnore
+    private static final long serialVersionUID = 6727230996935477868L;
+
     private String name;
     private String categoryName;
     private String phone;
