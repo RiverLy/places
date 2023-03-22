@@ -1,4 +1,4 @@
-package com.river.places.search.external.model;
+package com.river.places.external.search.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

@@ -1,7 +1,7 @@
 package com.river.places.search.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.river.places.search.external.ExternalServiceCode;
+import com.river.places.external.search.enums.ExternalServiceCode;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,6 @@
-package com.river.places.search.external.model.response;
+package com.river.places.external.search.model.response;
 
-import com.river.places.search.external.model.KakaoPlace;
+import com.river.places.external.search.model.KakaoPlace;
 import lombok.Getter;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.river.places.external.api.config;
+package com.river.places.common.api.config;
 
 import feign.RequestInterceptor;
 import org.springframework.beans.factory.annotation.Value;

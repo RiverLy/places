@@ -1,4 +1,4 @@
-package com.river.places.search.external.model;
+package com.river.places.external.search.model;
 
 import lombok.Getter;
 import lombok.Setter;

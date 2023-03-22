@@ -1,10 +1,10 @@
-package com.river.places.search.external.service.implementation;
+package com.river.places.external.search.service.implementation;
 
-import com.river.places.external.api.KakaoApiClient;
-import com.river.places.search.external.ExternalServiceCode;
-import com.river.places.search.external.model.KakaoPlace;
-import com.river.places.search.external.model.response.KakaoSearchResponse;
-import com.river.places.search.external.service.ExternalPlaceSearchApiService;
+import com.river.places.common.api.KakaoApiClient;
+import com.river.places.external.search.service.ExternalPlaceSearchApiService;
+import com.river.places.external.search.enums.ExternalServiceCode;
+import com.river.places.external.search.model.KakaoPlace;
+import com.river.places.external.search.model.response.KakaoSearchResponse;
 import com.river.places.search.model.Place;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

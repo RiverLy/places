@@ -2,7 +2,7 @@ package com.river.places.search.service.implementation;
 
 import com.river.places.common.exception.CustomErrorCode;
 import com.river.places.common.exception.ServiceException;
-import com.river.places.search.external.service.ExternalPlaceSearchApiService;
+import com.river.places.external.search.service.ExternalPlaceSearchApiService;
 import com.river.places.search.model.Place;
 import com.river.places.search.service.PlaceSearchService;
 import lombok.RequiredArgsConstructor;

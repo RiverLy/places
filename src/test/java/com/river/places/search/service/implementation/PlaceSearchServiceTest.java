@@ -1,10 +1,10 @@
 package com.river.places.search.service.implementation;
 
 import com.river.places.common.exception.ServiceException;
-import com.river.places.search.external.ExternalServiceCode;
-import com.river.places.search.external.service.ExternalPlaceSearchApiService;
-import com.river.places.search.external.service.implementation.KakaoLocalPlaceSearchApiService;
-import com.river.places.search.external.service.implementation.NaverLocalPlaceSearchApiService;
+import com.river.places.external.search.enums.ExternalServiceCode;
+import com.river.places.external.search.service.ExternalPlaceSearchApiService;
+import com.river.places.external.search.service.implementation.KakaoLocalPlaceSearchApiService;
+import com.river.places.external.search.service.implementation.NaverLocalPlaceSearchApiService;
 import com.river.places.search.model.Place;
 import com.river.places.search.service.PlaceSearchService;
 import org.junit.jupiter.api.BeforeEach;

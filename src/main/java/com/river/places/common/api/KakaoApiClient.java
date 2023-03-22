@@ -1,7 +1,7 @@
-package com.river.places.external.api;
+package com.river.places.common.api;
 
-import com.river.places.external.api.config.KakaoApiClientConfiguration;
-import com.river.places.search.external.model.response.KakaoSearchResponse;
+import com.river.places.common.api.config.KakaoApiClientConfiguration;
+import com.river.places.external.search.model.response.KakaoSearchResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

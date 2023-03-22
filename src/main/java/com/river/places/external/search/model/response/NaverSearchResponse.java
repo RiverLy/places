@@ -1,6 +1,6 @@
-package com.river.places.search.external.model.response;
+package com.river.places.external.search.model.response;
 
-import com.river.places.search.external.model.NaverPlace;
+import com.river.places.external.search.model.NaverPlace;
 import lombok.Getter;
 import lombok.Setter;
 

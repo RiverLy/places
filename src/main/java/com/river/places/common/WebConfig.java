@@ -1,4 +1,4 @@
-package com.river.places.common.config;
+package com.river.places.common;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

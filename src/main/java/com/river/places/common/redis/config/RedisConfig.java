@@ -1,4 +1,4 @@
-package com.river.places.common.config;
+package com.river.places.common.redis.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
@@ -32,7 +32,7 @@ public class RedisConfig {
 
 	RedisTemplate<byte[], byte[]> redisTemplate = new RedisTemplate<>();
 	redisTemplate.setConnectionFactory(redisConnectionFactory);
-	
+
 	return redisTemplate;
     }
 

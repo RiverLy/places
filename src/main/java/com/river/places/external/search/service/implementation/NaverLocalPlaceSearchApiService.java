@@ -1,10 +1,10 @@
-package com.river.places.search.external.service.implementation;
+package com.river.places.external.search.service.implementation;
 
-import com.river.places.external.api.NaverApiClient;
-import com.river.places.search.external.ExternalServiceCode;
-import com.river.places.search.external.model.NaverPlace;
-import com.river.places.search.external.model.response.NaverSearchResponse;
-import com.river.places.search.external.service.ExternalPlaceSearchApiService;
+import com.river.places.common.api.NaverApiClient;
+import com.river.places.external.search.service.ExternalPlaceSearchApiService;
+import com.river.places.external.search.enums.ExternalServiceCode;
+import com.river.places.external.search.model.NaverPlace;
+import com.river.places.external.search.model.response.NaverSearchResponse;
 import com.river.places.search.model.Place;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

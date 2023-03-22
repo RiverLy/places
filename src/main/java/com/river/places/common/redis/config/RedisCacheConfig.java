@@ -1,4 +1,4 @@
-package com.river.places.search.configuration;
+package com.river.places.common.redis.config;
 
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;

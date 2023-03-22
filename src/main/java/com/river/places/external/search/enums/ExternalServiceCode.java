@@ -1,4 +1,4 @@
-package com.river.places.search.external;
+package com.river.places.external.search.enums;
 
 public enum ExternalServiceCode {
     KAKAO(5),

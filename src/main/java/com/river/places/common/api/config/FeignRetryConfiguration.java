@@ -1,4 +1,4 @@
-package com.river.places.external.api.config;
+package com.river.places.common.api.config;
 
 import feign.RetryableException;
 import feign.Retryer;

@@ -1,4 +1,4 @@
-package com.river.places.search.external.service;
+package com.river.places.external.search.service;
 
 import com.river.places.search.model.Place;
 
